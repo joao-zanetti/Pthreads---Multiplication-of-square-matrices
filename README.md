@@ -13,8 +13,8 @@ To run the code:
 Details:
 Inside the code, change at the beginning of the file the defines.
 
-example:
-#define nt 4    //is the number of threads is created in execution.
-#define nt 1000 //N:is the order of the matrix square
-#define seed 100 //is the  seed of rand(), or seed ==100 ->  numbers between 0 - 100 in matrix
+example:<br/>
+#define nt 4    //is the number of threads is created in execution.<br/>
+#define nt 1000 //N:is the order of the matrix square<br/>
+#define seed 100 //is the  seed of rand(), or seed ==100 ->  numbers between 0 - 100 in matrix<br/>
 
