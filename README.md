@@ -1,17 +1,17 @@
 # (Pthreads) Multiplication of square matrices
 
-mulmatrix.c:
+#h1mulmatrix.c:
 Multiplication of two square matrix in parallel, with order N.
 (mNxN * vNxN).
 
-To compile the code:
+##h2 To compile the code:
 gcc mulmatrix.c -o mulmatrix -pthread
 
-To run the code:
+##h2 To run the code:
 ./mulmatrix
 
-Details:
-Inside the code, change at the beginning of the file the defines.
+##h2Details:
+Inside the code, edit the numbers of defines at the beginning of the file, with numbers whatever you want.
 
 example:<br/>
 ```
