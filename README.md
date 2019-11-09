@@ -3,7 +3,7 @@
 ## mulmatrix.c:
 Multiplication of two square matrix in parallel, with order N. The Multiplication will split in nt threads.
 Each thread will do the multiplication of N/nt lines of matrix m with N columns of matrix v.
-mNxN * vNxN = resNxN
+ex: mNxN * vNxN = resNxN
 
 ## To compile the code:
 gcc mulmatrix.c -o mulmatrix -pthread
@@ -22,6 +22,6 @@ Inside the code, edit the numbers of defines at the beginning of the file, with 
 ```
 
 ### Performance:<br/>
-For better load balancing, the numbers of threads (nt) selected in define must be higher than number of processors: nt> processors.<br/>
+For better load balancing, the numbers of threads (nt) selected in define must be higher than number of processors:<br/> nt > number of processors.<br/>
 This improve lowest idleness of processors
 
