@@ -1,18 +1,18 @@
 # (Pthreads) Multiplication of square matrices
 
 ## mulmatrix.c:
-Multiplication of two square matrix in parallel, with order N. The Multiplication will split in nt threads.
-Each thread will do the multiplication of N/nt lines of matrix m with N columns of matrix v.
-ex: mNxN * vNxN = resNxN
+Multiplication of two square matrix in parallel, with order N. The Multiplication will split in nt threads.<br/>
+Each thread will do the multiplication of N/nt lines of matrix m with N columns of matrix v.<br/>
+ex: mNxN * vNxN = resNxN<br/>
 
 ## To compile the code:
-gcc mulmatrix.c -o mulmatrix -pthread
+gcc mulmatrix.c -o mulmatrix -pthread<br/>
 
 ## To run the code:
-./mulmatrix
+./mulmatrix<br/>
 
 ## Details:
-Inside the code, edit the numbers of defines at the beginning of the file, with numbers whatever you want.
+Inside the code, edit the numbers of defines at the beginning of the file, with numbers whatever you want.<br/>
 
 ### example:<br/>
 ```
@@ -23,5 +23,5 @@ Inside the code, edit the numbers of defines at the beginning of the file, with 
 
 ### Performance:<br/>
 For better load balancing, the numbers of threads (nt) selected in define must be higher than number of processors:<br/> nt > number of processors.<br/>
-This improve lowest idleness of processors
+This improve lowest idleness of processors<br/>
 
